@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(assets/BG.png);
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.head-row {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+#myinput {
+    width: 80%;
+    margin-bottom: 2%;
+    padding: 5px;
+    text-align: center;
+}
+
+.foot-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #0e0e55;
+    color: white;
+    height: 100px;
+    width: 100%;
+    
+}
+
+span {
+    color: coral;
+}
+
+.btn-sl {
+    width: 50%;
+    padding: 10px;
+    background-color: #0e0e55;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.btn-sl:hover {
+    background-color: transparent;
+    color: black;
+    border: 3px solid black;
+}
+
+.ev-l-1 {
+    width: 40%;
+}
+
+.ev-l-2 {
+    width: 40%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home-h3{
+    background-color: #0e0e55;
+    width: 93%;
+    height: 4%;
+    color: white;
+    text-align: center;
+}
+
+.d-head {
+    width: 80%;
+    height: 40px;
+    background-color: rgb(7, 7, 70);
+    color: white;
+    margin-bottom: 2%;
+}
+
+
+
+.d-row {
+  width: 80%;
+  height: 50px;
+  margin-bottom: 1%;
+  animation: mymove 5s infinite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffe2b78e;
+}
+
+.d-row h5 {
+    color: black;
+    animation: color 5s infinite;
+}
+
+@keyframes mymove {
+
+    0% {
+        border-top: 3px solid blue;
+        border-right: 3px solid green;
+        border-bottom: 3px solid purple;
+        border-left: 3px solid red;
+    }
+
+    10% {
+        border-top: 3px solid red;
+        border-right: 3px solid blue;
+        border-bottom: 3px solid green;
+        border-left: 3px solid purple;
+    }
+    20% {
+        border-top: 3px solid purple;
+        border-right: 3px solid red;
+        border-bottom: 3px solid blue;
+        border-left: 3px solid green;
+    }
+    30% {
+        border-top: 3px solid green;
+        border-right: 3px solid purple;
+        border-bottom: 3px solid red;
+        border-left: 3px solid blue;
+    }
+    40% {
+        border-top: 3px solid blue;
+        border-right: 3px solid green;
+        border-bottom: 3px solid purple;
+        border-left: 3px solid red;
+    }
+    50% {
+        /* box-shadow: 0px 5px 5px 0px  #ff006a; */
+        border-top: 3px solid red;
+        border-right: 3px solid blue;
+        border-bottom: 3px solid green;
+        border-left: 3px solid purple;
+    }
+    60% {
+        border-top: 3px solid red;
+        border-right: 3px solid blue;
+        border-bottom: 3px solid green;
+        border-left: 3px solid purple;
+    }
+    70% {
+        border-top: 3px solid purple;
+        border-right: 3px solid red;
+        border-bottom: 3px solid blue;
+        border-left: 3px solid green;
+    }
+    80% {
+        border-top: 3px solid green;
+        border-right: 3px solid purple;
+        border-bottom: 3px solid red;
+        border-left: 3px solid blue;
+    }
+    90% {
+        border-top: 3px solid blue;
+        border-right: 3px solid green;
+        border-bottom: 3px solid purple;
+        border-left: 3px solid red;
+    }
+    100% {
+        /* box-shadow: 0px 5px 5px 0px  #ff006a; */
+        border-top: 3px solid red;
+        border-right: 3px solid blue;
+        border-bottom: 3px solid green;
+        border-left: 3px solid purple;
+    }
+  }
+
+@keyframes color {
+    
+    40% {
+        color: red;
+    }
+    50% {
+        color: blue;
+    }
+
+    70% {
+        color: green;
+    }
+  }
+
+.home-ul {
+    background-color: #0e0e55;
+    width: 100% !important; 
+}
+
+.home-li {
+    text-align: left;
+    color: #ECA424;
+    background-color: white;
+    font-weight: bold;
+    margin: 2% 0% 2% 0%;
+    padding: 3px;    
+}
+
+.dpage {
+    background-color: #0e0e55;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.dpage:hover {
+    border: 3px solid #0e0e55;
+    background-color: transparent;
+    color: #0e0e55;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .ev-l-1 {
+        width: 20%;
+    }
+    .ev-l-2 {
+        display: none;
+    }
+    
+}
